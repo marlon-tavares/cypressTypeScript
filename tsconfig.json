@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ES5",
+      "module": "commonjs",
+      "strict": true,
+      "baseUrl": "./",
+      "outDir": "./dist"
+    },
+    "include": [
+      "cypress/**/*.ts",
+      "cypress/**/*.cy.ts",
+      "cypress/support/*.ts" 
+    ]
+  }
